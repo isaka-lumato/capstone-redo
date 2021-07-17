@@ -1,0 +1,228 @@
+body {
+  background: #333;
+  color: #fff;
+}
+
+.title {
+  font-family: "Cocogoose", sans-serif;
+  background: url(https://wallpaperaccess.com/full/1818031.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 500;
+}
+
+.subt {
+  background: url(https://wallpaperaccess.com/full/1818031.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 100;
+  letter-spacing: 1.5px;
+  padding-bottom: 10px;
+}
+
+html {
+  font-family: "lato", sans-serif;
+  color: black;
+}
+
+#home-section {
+  background-image: url(https://media.gettyimages.com/photos/m-so-proud-of-what-ive-achieved-here-picture-id1187124537?k=6&m=1187124537&s=612x612&w=0&h=Qv_dOHhbnmC-F9maHbCNFVMLOjNPjqgADJXimKLyX4U=);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 800px;
+  color: black;
+}
+
+.infos {
+  padding-top: 3%;
+  font-size: larger;
+  font-weight: bold;
+  font-family: "work", sans-serif;
+}
+
+#home-section .dark-overlay {
+  position: absolute;
+  left: 0;
+  background: white;
+  opacity: 0.8;
+  width: 100%;
+  min-height: 800px;
+}
+
+.navbar {
+  border-bottom: #008ed6 3px solid;
+  opacity: 0.8;
+  height: auto;
+}
+
+#home-section .home-inner {
+  padding-top: 20%;
+}
+
+.txt {
+  background: #f3efef;
+  color: rgb(0, 0, 0);
+  padding: 8px;
+  border-radius: 1px;
+}
+
+.main-program {
+  padding-top: 5%;
+  background-image: url(images/mosaic.png);
+}
+
+.fas {
+  color: red;
+}
+
+.bgColor {
+  background: #3d3f46;
+  margin: 1%;
+  border-radius: 3%;
+  opacity: 0.7;
+}
+
+.colorH3 {
+  font-size: medium;
+  color: #e54040;
+  font-weight: 700;
+}
+
+a:hover {
+  color: #3d3f46;
+}
+
+.mobile {
+  display: block;
+  background: #e54040;
+  color: white;
+  font-size: 1.5rem;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.desktop {
+  display: none;
+}
+
+.mainProg {
+  display: block;
+  border-bottom: 3px solid #e54040;
+  text-align: center;
+  width: fit-content;
+  padding-bottom: 1%;
+}
+
+.title2 {
+  display: none;
+}
+
+.speakers {
+  background: white;
+}
+
+.featuredHead {
+  color: black;
+}
+
+.speaker-text {
+  color: black;
+  margin-left: 2%;
+}
+
+.speakerUl {
+  display: grid;
+  width: 95%;
+}
+
+.imgSpeaker {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.speakerli {
+  display: flex;
+}
+
+.footer {
+  background: white;
+  color: black;
+  padding-top: 2%;
+}
+
+.contactP {
+  text-align: center;
+  margin-top: 2%;
+  padding-bottom: 2%;
+  height: 100%;
+  padding-top: 2%;
+}
+
+.txt-align {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.aboutUsClass {
+  background: #d3d3d3;
+  color: black;
+  height: 100%;
+  padding-bottom: 5%;
+}
+
+.aboutUsClass img {
+  width: 100%;
+  height: 600px;
+}
+
+.aboutPad {
+  padding: 3%;
+  text-align: center;
+}
+
+.indPad {
+  padding: 1.5% 8% 1.5% 8%;
+  text-align: center;
+}
+
+.aboutHeader {
+  width: 100%;
+}
+
+.aboutHeader .mainProg {
+  position: relative;
+  top: 50px;
+}
+
+.past-acts .txt-align {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.past-acts div img {
+  position: relative;
+  left: 20%;
+  margin: auto;
+  padding: 3% 5%;
+}
+
+.past-acts .img-acts {
+  width: 270px;
+  height: 270px;
+}
+
+.imgPartners {
+  width: 150px;
+}
+
+.fb {
+  width: 100px;
+}

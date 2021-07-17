@@ -1,0 +1,53 @@
+@media only screen and (min-width: 720px) {
+  .mobile {
+    display: none;
+  }
+
+  .desktop {
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 5%;
+    color: #e54040;
+  }
+
+  .title {
+    display: none;
+  }
+
+  .title2 {
+    display: block;
+    font-family: "Cocogoose", sans-serif;
+    background: url(https://wallpaperaccess.com/full/1818031.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
+  }
+
+  .speakerUl {
+    width: 100%;
+    grid-auto-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    padding-bottom: 5%;
+    margin-top: 5%;
+  }
+
+  .speaker-text {
+    margin-left: 1rem;
+  }
+
+  .speaker-title {
+    color: #ec5242;
+  }
+
+  .aboutHeader {
+    height: 200px;
+    color: white;
+    background: #272a31;
+  }
+}
